@@ -16,7 +16,7 @@
     <modules>
         <module>bypass-restrictions</module>
         <module>challenge</module>
-        <module>client-side-filtering</module>
+        <!--<module>client-side-filtering</module>-->
         <module>cross-site-scripting</module>
         <module>html-tampering</module>
         <module>http-basics</module>
@@ -27,7 +27,7 @@
         <module>xxe</module>
         <module>idor</module>
         <module>vulnerable-components</module>
-	<module>auth-bypass</module>
+	      <module>auth-bypass</module>
         <!-- uncomment below to include lesson template in build, also uncomment the dependency in webgoat-server/pom.xml to have it run in the project fully -->
         <!--<module>webgoat-lesson-template</module>-->
     </modules>
